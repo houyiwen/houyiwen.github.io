@@ -52,7 +52,7 @@ url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
-url_video: uploads/ICRA24_3892_Presentation_Video.mp4
+url_video: https://youtu.be/52J2moIdzBg
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

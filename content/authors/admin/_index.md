@@ -119,7 +119,7 @@ social:
 highlight_name: true
 ---
 
-I am a final-year master student in the School of Computer Science and Technology<a href="https://cs.ustc.edu.cn/">School of Computer Science and Technology</a>, <a href="https://www.ustc.edu.cn/">University of Science and Technology of China (USTC)</a> , and a member of the <a href="https://ai.ustc.edu.cn/">USTC Robotics Lab</a>. I am advised by Prof. <a href="http://staff.ustc.edu.cn/~wufeng02/">Feng wu</a>.
+I am a final-year master student in the <a href="https://cs.ustc.edu.cn/">School of Computer Science and Technology</a>, <a href="https://www.ustc.edu.cn/">University of Science and Technology of China (USTC)</a> , and a member of the <a href="https://ai.ustc.edu.cn/">USTC Robotics Lab</a>. I am advised by Prof. <a href="http://staff.ustc.edu.cn/~wufeng02/">Feng wu</a>.
 
 Before that, I received my bachelor’s degree in Computer Science and Technology from the University of Science and Technology of China (USTC) in 2021.
 

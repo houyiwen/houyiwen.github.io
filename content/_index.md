@@ -202,15 +202,16 @@ sections:
   #     view: card
   - block: collection
     content:
-      title: Publications and Preprint
+      title: Selected Publications and Preprint
       text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
+        # {{% callout note %}}
+        # Quickly discover relevant content by [filtering publications](./publication/).
+        # {{% /callout %}}
       filters:
         folders:
           - publication
-        exclude_featured: false
+        featured_only: true
+        # exclude_featured: false
     design:
       columns: '2'
       view: Compact

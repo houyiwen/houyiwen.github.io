@@ -29,7 +29,7 @@ bio: My research interests include Reinforcement Learning and Robotics.
 
 # Interests to show in About widget
 interests:
-  - Reinforcement learning
+  - Reinforcement Learning
   - Robotics
 
 # Education to show in About widget
@@ -93,12 +93,12 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:houyiwen@mail.ustc.edu.cn'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/HouYiwen328
-    label: Follow me on Twitter
-    display:
-      header: true
+  # - icon: twitter
+  #   icon_pack: fab
+  #   link: https://twitter.com/HouYiwen328
+  #   label: Follow me on Twitter
+  #   display:
+  #     header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com/citations?user=XZW2vqcAAAAJ
@@ -119,9 +119,7 @@ social:
 highlight_name: true
 ---
 
-I am a final-year master student in the <a href="https://cs.ustc.edu.cn/">School of Computer Science and Technology</a>, <a href="https://www.ustc.edu.cn/">University of Science and Technology of China (USTC)</a> , and a member of the <a href="https://ai.ustc.edu.cn/">USTC Robotics Lab</a>. I am advised by Prof. <a href="http://staff.ustc.edu.cn/~wufeng02/">Feng wu</a>.
-
-Before that, I received my bachelor’s degree in Computer Science and Technology from the University of Science and Technology of China (USTC) in 2021.
+I am a final-year master student in the <a href="https://cs.ustc.edu.cn/">School of Computer Science and Technology</a>, <a href="https://www.ustc.edu.cn/">University of Science and Technology of China (USTC)</a> , and a member of the <a href="https://ai.ustc.edu.cn/">USTC Robotics Lab</a>. I am advised by Prof. <a href="http://staff.ustc.edu.cn/~wufeng02/">Feng wu</a>. Before that, I received my bachelor’s degree in Computer Science and Technology from the University of Science and Technology of China (USTC) in 2021.
 
 My current research interests mainly lie in reinforcement learning and robotics. Specifically, I am interested in offline reinforcement learning. I am also interested in sim-to-real transfer, and applications in real-world robotic tasks.
 <!-- 

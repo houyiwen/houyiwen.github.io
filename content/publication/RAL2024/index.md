@@ -33,7 +33,10 @@ publication_short: RA-L
 abstract: Offline reinforcement learning (RL) has shown great potential in many robotic tasks, where doing trial-and-error with the environment is risky, costly, or time-consuming. However, it is still hard to succeed in long-horizon tasks especially when given suboptimal and multimodal offline datasets. Nevertheless, existing RL methods rarely consider the structured information in offline datasets, which are commonly found in many robotic tasks. To address these challenges, we propose a novel offline RL approach that combines the techniques of dataset augmentation and subtask relabeling. Specifically, we first extract the subtasks and build the task graph based on the structured information in offline datasets. We then use the task graph to sample and generate an augmented dataset, which is more suitable for offline RL learning. After that, we relabel the dataset according to the task graph and finally learn a subtask-conditioned policy to complete the task. By doing so, we decompose the task of reaching a long-horizon goal state into a sequence of easier subtasks. This is not only useful for handling the long-horizon problem, but also reduces the error introduced by the offline dataset. We conducted extensive experiments in both the D4RL benchmark dataset and real-world robot with complex manipulation tasks. The experimental results show that our method significantly advances the state-of-the-art baselines in most tasks, particularly in long-horizon manipulation tasks with limited human demonstrations.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: "RA-L 2024
+dsds
+dsdsdsd."
+
 
 tags: []
 
@@ -61,20 +64,20 @@ image:
   focal_point: ''
   preview_only: false
 
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects:
-  - example
+# # Associated Projects (optional).
+# #   Associate this publication with one or more of your projects.
+# #   Simply enter your project's folder or file name without extension.
+# #   E.g. `internal-project` references `content/project/internal-project/index.md`.
+# #   Otherwise, set `projects: []`.
+# projects:
+#   - example
 
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
+# # Slides (optional).
+# #   Associate this publication with Markdown slides.
+# #   Simply enter your slide deck's filename without extension.
+# #   E.g. `slides: "example"` references `content/slides/example/index.md`.
+# #   Otherwise, set `slides: ""`.
+# slides: example
 ---
 <!-- 
 {{% callout note %}}

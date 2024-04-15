@@ -101,7 +101,7 @@ social:
       header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=XZW2vqcAAAAJ
   # - icon: github
   #   icon_pack: fab
   #   link: https://github.com/gcushen
@@ -119,5 +119,16 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a final-year master student in the School of Computer Science and Technology<a href="超链接地址" title="超链接title">School of Computer Science and Technology</a>, University of Science and Technology of China (USTC), and a member of the USTC Robotics Lab. I am advised by Prof. Feng wu. 
+
+Before that, I received my bachelor’s degree in Computer Science from the University of Science and Technology of China in 2021.
+
+My current research interests mainly lie in reinforcement learning and robotics. Specifically, I am especially interested in offline reinforcement learning. I am also interested in sim-to-real transfer, and applications in real-world robotic tasks.
+<!-- 
+I am currently a (last year) graduate student at the School of Computer Science and Technology, University of Science and Technology of China (I will graduate in June 2024), and my advisor is Prof. Xiang-Yang Li (IEEE/ACM Fellow). I received my bachelor’s degree from Northwest Agriculture and Forestry University in 2021 with Outstanding Graduate Honor (ranking 2%). I also won some of the highest student honors, e.g., Tang Lixin Scholarship (ranking 0.2%) and the 100 campus Stars of the whole university (ranking 0.5%). My current research interests mainly lie in human-computer interaction, as well as mobile and ubiquitous computing, e.g., using ubiquitous wearable devices and sensors to design advanced interactive systems. My core aim is to empower objects to go beyond existing interaction types to address some real-world needs in specific scenarios. Therefore, I’m also broadly interested in the cross-application of these innovations in other areas.
+
+
+I'm a () of artificial intelligence at the Stanford AI Lab. master student in the School of Computer Science, University of Science and Technology of China (USTC)
+
+Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks. -->
 {style="text-align: justify;"}

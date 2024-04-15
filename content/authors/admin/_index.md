@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 侯懿文
+title: Yiwen Hou
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# name_pronunciation: Yiwen Hou
 
 # Full name (for SEO)
 first_name: Yiwen
@@ -40,7 +40,7 @@ education:
     #   year: 2012
     - course: M.S. in Computer Science and Technology
       institution: University of Science and Technology of China
-      year: 2021 - 2024(expected)
+      year: 2021 - 2024 (expected)
     - course: B.S. in Computer Science and Technology
       institution: University of Science and Technology of China
       year: 2017 - 2021

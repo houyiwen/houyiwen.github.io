@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: M.S. in Computer Science and Technology
+role: M.Sc. in Computer Science and Technology
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -38,10 +38,10 @@ education:
     # - course: PhD in Artificial Intelligence
     #   institution: Stanford University
     #   year: 2012
-    - course: M.S. in Computer Science and Technology
+    - course: M.Sc. in Computer Science and Technology
       institution: University of Science and Technology of China
       year: 2021 - 2024 (expected)
-    - course: B.S. in Computer Science and Technology
+    - course: B.Sc. in Computer Science and Technology
       institution: University of Science and Technology of China
       year: 2017 - 2021
 

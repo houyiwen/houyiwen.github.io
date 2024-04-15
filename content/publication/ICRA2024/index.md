@@ -33,7 +33,7 @@ publication_short: ICRA
 abstract: Offline reinforcement learning (RL) provides a promising approach to avoid costly online interaction with the real environment. However, the performance of offline RL highly depends on the quality of the datasets, which may cause extrapolation error in the learning process. In many robotic applications, an inaccurate simulator is often available. However, the data directly collected from the inaccurate simulator cannot be directly used in offline RL due to the well-known exploration-exploitation dilemma and the dynamic gap between inaccurate simulation and the real environment. To address these issues, we propose a novel approach to combine the offline dataset and the inaccurate simulation data in a better manner. Specifically, we pre-train a generative adversarial network (GAN) model to fit the state distribution of the offline dataset. Given this, we collect data from the inaccurate simulator starting from the distribution provided by the generator and reweight the simulated data using the discriminator. Our experimental results in the D4RL benchmark and a real-world manipulation task confirm that our method can benefit more from both inaccurate simulator and limited offline datasets to achieve better performance than the state-of-the-art methods.
 
 # Summary. An optional shortened abstract.
-summary: "test 1 <br> test2 dsdsd dsdsdsdfsf."
+summary: "IEEE International Conference on Robotics and Automation (ICRA), 2024. (accepted)"
 
 tags: []
 
@@ -45,14 +45,14 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: uploads/ICRA24_3892_MS.pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
-url_video: 'https://youtu.be/o-oFSCBaR24'
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

@@ -1,0 +1,285 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Yiwen Hou</title>
+
+    <meta name="author" content="Yiwen Hou">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" rel="stylesheet">
+
+    <!-- MathJax -->
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>        
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      });
+    </script>
+    
+  </head>
+
+  <body>
+    <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <!-- Introduction & Profile Photo -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+
+              <!-- introduction -->
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center;">
+                  Yiwen Hou &nbsp;|&nbsp; 侯懿文
+                </p>
+                <p>
+                  I am a Ph.D student at <a href="https://www.comp.nus.edu.sg/">School of Computing</a>, <a href="https://nus.edu.sg/">National University of Singapore</a>, advised by Prof. <a href="https://linsats.github.io/">Lin Shao</a>. Before that, I received my Master's degree and my Bachelor's degree from the <a href="https://cs.ustc.edu.cn/">School of Computer Science and Technology</a>, <a href="https://www.ustc.edu.cn/">University of Science and Technology of China</a>, advised by Prof. <a href="http://staff.ustc.edu.cn/~wufeng02/">Feng Wu</a>.
+                </p>
+                <p>
+                  My current research interests mainly lie in reinforcement learning and robotics. Specifically, I am interested in offline reinforcement learning. I am also interested in sim-to-real transfer, and applications in real-world robotic tasks.
+                </p>
+                
+              </td>
+
+              <!-- profile photo -->
+              <td style="padding:2.5%;width:30%;max-width:40%;min-width: 250px;">
+                <!-- <a href="images/houyiwen11.JPG"> -->
+                <img style="width:100%;max-width:100%;object-fit: cover; border-radius: 10%;" alt="profile photo" src="images/houyiwen11.JPG" class="hoverZoomLink">
+                <!-- </a> -->
+                <div style="text-align:center;margin-top:10%;" class="text-center">
+                  <a style="margin-right: 5px;" href="mailto:houyiwen0328@gmail.com" class="fa-solid fa-envelope fa-xl"></a>
+                  <a style="margin-right: 5px;" href="https://github.com/houyiwen/" class="fa-brands fa-github fa-xl"></a>
+                  <a style="margin-right: 5px;" href="https://scholar.google.com/citations?user=XZW2vqcAAAAJ" class="fas fa-graduation-cap fa-xl"></a>
+                  <a style="margin-right: 5px;" href="https://www.linkedin.com/in/yiwen-hou-6b306a297/" class="fab fa-linkedin fa-xl"></a>
+                  <a style="margin-right: 5px;" href="https://x.com/HouYiwen328" class="fab fa-x-twitter fa-xl"></a>
+                  <a style="margin-right: 0px;" href="javascript:void(0)" onclick="openWeChatModal()" class="fab fa-weixin fa-xl"></a>
+                </div>
+
+                <!-- WeChat image function -->
+                <div id="WeChatModal" class="modal">
+                  <div class="modal-content">
+                    <span class="close" onclick="closeWeChatModal()">&times;</span>
+                    <img src="images/WeChat.jpg" alt="WeChat QR Code" style="width: 100%;">
+                  </div>
+                </div>
+                
+                <script>
+                  function openWeChatModal() {
+                    document.getElementById("WeChatModal").style.display = "block";
+                  }
+                  function closeWeChatModal() {
+                    document.getElementById("WeChatModal").style.display = "none";
+                  }
+                  window.onload = function() {
+                    document.getElementById("WeChatModal").style.display = "none";
+                  };
+                  window.onclick = function(event) {
+                    var modal = document.getElementById("WeChatModal");
+                    if (event.target == modal) {
+                      modal.style.display = "none";
+                    }
+                  }
+                </script>
+
+                
+                
+              </td>
+            </tr>
+          </tbody></table>
+
+          <!-- News -->
+          <table style="width:100%; border:0px; border-spacing:0px; border-collapse:separate; margin-left:auto; margin-right:auto;">
+            <tbody>
+              <tr>
+                <td style="padding-top: 0px; padding-bottom: 10px; padding-left: 20px; padding-right: 20px; width:100%; vertical-align:middle">
+                  <h2><b>News</b></h2>
+                  <ul class="news-list">
+                    <!-- <li> 
+                      [2024/12] 🎉 IRC is accepted to TPAMI.
+                    </li> -->
+                    <li>
+                      [Nov, 2024] 🎉 <a href="https://nus-lins-lab.github.io/drograspweb/"><b>$\mathcal{D(R, O)}$ Grasp</b></a> won the 
+                      <strong style="color: rgba(255, 69, 58, 1);">Best Robotics Paper Award</strong> at <a href="https://sites.google.com/view/corl-mapodel-workshop">CoRL 2024 MAPoDeL Workshop</a>! 
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <h2><b>Research</b></h2>
+                </td>
+              </tr>
+
+              <!-- ICRA 2025 D(R,O) Grasp -->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src='images/dro.png' class="paper-img">
+                </td>
+
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <!-- title -->
+                  <span class="papertitle">
+                    $\mathcal{D(R,O)}$ Grasp: A Unified Representation of Robot and Object Interaction for Cross-Embodiment Dexterous Grasping
+                  </span>
+                  <br>
+
+                  <!-- author -->
+                  <span class="author">Zhenyu Wei</span>*,
+                  <span class="author">Zhixuan Xu</span>*,
+                  <span class="author">Jingxiang Guo</span>,
+                  <span class="author-myself">Yiwen Hou</span>,
+                  <span class="author">Chongkai Gao</span>,
+                  <span class="author">Zhehao Cai</span>,
+                  <span class="author">Jiayu Luo</span>,
+                  <span class="author">Lin Shao</span>
+                  <br>
+
+                  <span class="paper-status">
+                    In Submission to International Conference on Robotics and Automation (ICRA) 2025
+                  </span>
+                  <br>
+
+                  <!-- Award or spotlight -->
+                  <span>
+                    CoRL 2024 MAPoDeL Workshop <strong style="color: rgba(255, 69, 58, 1);">(Best Robotics Paper Award)</strong>
+                  </span>
+                  <br>
+                  <span>
+                    CoRL 2024 LFDM Workshop
+                  </span>
+                  <br>
+
+                  <!-- info -->
+                  <a href="https://nus-lins-lab.github.io/drograspweb/">Website</a> &nbsp;/&nbsp;
+                  <a href="https://arxiv.org/abs/2410.01702">arXiv</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/zhenyuwei2003/DRO-Grasp">Code</a>
+                  <br>
+                  
+                  <!-- TLDR -->
+                  <span class="TLDR">
+                    <strong>TL;DR:</strong> 
+                      Introduce $\mathcal{D(R,O)}$, a novel interaction-centric representation for dexterous grasping tasks that 
+                      goes beyond traditional robot-centric and object-centric approaches, enabling robust generalization across 
+                      diverse robotic hands and objects.
+                  </span>
+                </td>
+              </tr>
+
+              <!-- ICRA 2024 ORIS -->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src='images/ORIS.jpg' class="paper-img">
+                </td>
+
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <!-- title -->
+                  <span class="papertitle">
+                    Improving Offline Reinforcement Learning with Inaccurate Simulators
+                  </span>
+                  <br>
+
+                  <!-- author -->
+                  <span class="author-myself">Yiwen Hou</span>,
+                  <span class="author">Haoyuan Sun</span>,
+                  <span class="author">Jinming Ma</span>,
+                  <span class="author">Feng Wu</span>,
+                  <br>
+
+                  <span class="paper-status">
+                    International Conference on Robotics and Automation (ICRA) 2024
+                  </span>
+                  <br>
+
+                  <!-- info -->
+                  <a href="https://arxiv.org/abs/2405.04307">arXiv</a>&nbsp;/&nbsp;
+                  <a href="https://www.youtube.com/watch?v=52J2moIdzBg&t=190s">Video</a>
+                  <br>
+                  
+                  <!-- TLDR -->
+                  <span class="TLDR">
+                    <strong>TL;DR:</strong> 
+                    Improve offline reinforcement learning by combining offline data with simulated data, using a GAN to align and reweight the simulated data, achieving better performance in real-world tasks.
+                  </span>
+                </td>
+              </tr>
+
+              <!-- RAL 2024 task_graph -->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src='images/task_graph.png' class="paper-img">
+                </td>
+                
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <!-- title -->
+                  <span class="papertitle">
+                    Effective Offline Robot Learning with Structured Task Graph
+                  </span>
+                  <br>
+
+                  <!-- author -->
+                  <span class="author-myself">Yiwen Hou</span>*,
+                  <span class="author">Jinming Ma</span>*,
+                  <span class="author">Haoyuan Sun</span>,
+                  <span class="author">Feng Wu</span>,
+                  <br>
+
+                  <span class="paper-status">
+                    IEEE Robotics and Automation Letters (RA-L) 2024
+                  </span>
+                  <br>
+
+                  <!-- info -->
+                  <a href="https://ieeexplore.ieee.org/document/10400863">IEEE</a>&nbsp;/&nbsp;
+                  <a href="https://www.youtube.com/watch?v=o-oFSCBaR24&t=193s">Video</a>
+                  <br>
+                  
+                  <!-- TLDR -->
+                  <span class="TLDR">
+                    <strong>TL;DR:</strong> 
+                    Extract the subtasks and build the structured task graph from offline datasets, then augment and relabel the datasets based on the task graph, enhancing long-horizon robot tasks.
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- Service -->
+          <!-- <table style="width:100%; border:0px; border-spacing:0px; border-collapse:separate; margin-left:auto; margin-right:auto;">
+            <tbody>
+              <tr>
+                <td style="padding-top: 0px; padding-bottom: 10px; padding-left: 20px; padding-right: 20px; width:100%; vertical-align:middle">
+                  <h2><b>Service</b></h2>
+                  <ul class="news-list">
+                    <li>
+                      Conference Reviewer: ICRA
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table> -->
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:0px">
+                  <br>
+                  <p style="text-align:right;font-size:small;">
+                    This website is designed based on <a href="https://jonbarron.info/ style="font-size:small;"">Jon Barron's wetsite</a>. Last Update: Dec, 2024
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
